@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="round" parent="">
+        <item name="cornerFamily">rounded</item>
+
+        <item name="color">@color/black</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <!-- Laisser les coins supérieurs non arrondis -->
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+     <style name="aroundi" parent="">
+         <item name="cornerFamily">rounded</item>
+         <item name="cornerSize">50dp</item>
+         <item name="color">@color/white</item>
+
+
+     </style>
+
+
+
+</resources>

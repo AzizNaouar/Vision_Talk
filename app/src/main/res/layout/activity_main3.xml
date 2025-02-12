@@ -167,21 +167,11 @@
     </LinearLayout>
 
     <!-- Barre noire fixe en bas de l'écran -->
-    <RelativeLayout
+    <View
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:background="#40A9AC">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/icons8_fl_che_retour_50_removebg_preview"
-             />
-    </RelativeLayout>
-
-
+        android:background="@android:color/black" />
 
 </RelativeLayout>
